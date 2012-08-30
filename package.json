@@ -1,0 +1,11 @@
+{
+  "name": "functional datatypes",
+  "description": "Datatypes inspired by Haskell implemented in Javascript",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "amdefine": "0.0.2",
+    "expect": "0.0.2"
+  },
+  "engine": "node >= 0.4.1"
+}
