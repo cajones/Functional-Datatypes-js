@@ -10,6 +10,7 @@ define(function (require, exports, module) {
     this.value = value;
   };
   Maybe.prototype = {
+
     just : function (value) {
       return new Maybe(value);
     },
@@ -43,6 +44,7 @@ define(function (require, exports, module) {
     bind : function (binder) {
       return this.isJust() ? new Maybe(binder) : this.nothing();
     }
+
   };
 
   return new Maybe();

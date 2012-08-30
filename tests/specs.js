@@ -28,6 +28,12 @@ describe('Given a maybe with just a value', function () {
       var result = the_maybe.bind(the_bound_value);
       expect(result.value).to.be(the_bound_value);
     });
+
+  it('should provide a maybe containing the bound value', function () {
+      var the_bound_value = "bound value";
+      var result = the_maybe.bind(the_bound_value);
+      expect(result.value).to.be(the_bound_value);
+    });
   });
 
 });
