@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/chrisjones0099/functional-datatypes-js.png)](http://travis-ci.org/chrisjones0099/functional-datatypes-js)
+[![Build Status](https://secure.travis-ci.org/ChrisJones0099/Functional-Datatypes-js.png)](http://travis-ci.org/ChrisJones0099/Functional-Datatypes-js)
 
 Functional Datatypes
 ====================
